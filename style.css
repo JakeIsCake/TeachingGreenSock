@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: url("images/space-bg-01.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(26, 150, 211);
+
+}
+
+.slide .row {
+
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.intro {
+    background: #305a5b;
+
+}
+
+.parallax {
+
+}
+
+.slidein {
+    background: #5b3030;
+
+}
+
+.slidein2 {
+
+}
+
+.slidein2 .row {
+    justify-content: space-around;
+}
+
+#bottom {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+#bottom2 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+}
+
+#bottom3 {
+	position: absolute;
+	top: 0px;
+	left: 200px;
+	z-index: 3;
+}
+
+#background {
+	height: 100%;
+  width: 950px;
+  background-color: rgba(255, 255, 255, 0.52);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+	margin-top: -5px;
+  margin-bottom: 50px;
+}
+
+.empty-space {
+  height: 200px;
+}
+
+.img-bottom {
+    position: relative;
+    bottom: -640px;
+}
+
+.bg-content {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgb(0, 0, 0);
+  padding: 50px;
+}
+
+.p-code {
+  color: rgb(194, 90, 90);
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  background-color: rgba(247, 231, 231, 1)
+}
+
+a {
+  color: rgb(26, 150, 211);
+}
+
+a:visited {
+  color: rgb(26, 150, 211);
+}
+
+hr {
+  margin: 40px 0px;
+}

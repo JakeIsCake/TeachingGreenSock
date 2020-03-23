@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass:100,200,300');
+
+
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: $white;
+	font-family: 'Overpass', sans-serif;
+	font-weight: 300;
+	color: #646464;
+}
+h2 {
+  color: $indigo;
+  font-size: 3.25rem;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+p {
+	font-size: 22px;
+	line-height: 150%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 650px;
+	&.disclaimer {
+		text-transform: uppercase;
+	}
+}
+.spacer {
+	background: $blue;
+	padding-top: 3%;
+	padding-bottom: 5%;
+  text-align: center;
+}
+.scroll-down {
+  color: $orange;
+  font-size: 4rem;
+  -webkit-transition: color .15s ease-in-out;
+  -moz-transition: color .15s ease-in-out;
+  -ms-transition: color .15s ease-in-out;
+  -o-transition: color .15s ease-in-out;
+  transition: color .15s ease-in-out;
+  &:hover {
+    color: $indigo;
+  }
+}
+.multi-parallax {
+	height: $height;
+	overflow: hidden;
+	position: relative;
+}
+.layer {
+	background-position: bottom center;
+	background-size: auto;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: $height;
+	position: absolute;
+	z-index: -1;
+}
+.layer-1 {
+	background-image: url('http://mojohospitality.com/wp-content/themes/mojo-1-0-0/assets/bg-solid-left.png');
+	background-position: left bottom;
+}
+.layer-2 {
+	background-image: url('http://mojohospitality.com/wp-content/themes/mojo-1-0-0/assets/bg-solid-right.png');
+	background-position: right bottom;
+}
+.layer-3 {
+	background-image: url('http://mojohospitality.com/wp-content/themes/mojo-1-0-0/assets/bg-hashed-left.png');
+}
+.layer-4 {
+	background-image: url('http://mojohospitality.com/wp-content/themes/mojo-1-0-0/assets/bg-hashed-right.png');
+	background-position: right bottom;
+}
+.layer-5 {
+	background-image: url('http://mojohospitality.com/wp-content/themes/mojo-1-0-0/assets/bg-outline-right.png');
+}
+.layer-6 {
+	background-image: url('http://mojohospitality.com/wp-content/themes/mojo-1-0-0/assets/bg-outline-left.png');
+}
